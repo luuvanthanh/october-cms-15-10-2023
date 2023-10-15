@@ -1,0 +1,10 @@
+name: Category
+form: $/thanh/managerpost/models/category/fields.yaml
+modelClass: Thanh\Managerpost\Models\Category
+defaultRedirect: thanh/managerpost/category
+create:
+    redirect: 'thanh/managerpost/category/update/:id'
+    redirectClose: thanh/managerpost/category
+update:
+    redirect: thanh/managerpost/category
+    redirectClose: thanh/managerpost/category

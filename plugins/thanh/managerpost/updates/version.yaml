@@ -1,0 +1,8 @@
+v1.0.1:
+    - 'Initialize plugin'
+v1.0.2:
+    - 'Created table thanh_managerpost_categories'
+    - builder_table_create_thanh_managerpost_categories.php
+v1.0.3:
+    - 'Created table thanh_managerpost_posts'
+    - builder_table_create_thanh_managerpost_posts.php

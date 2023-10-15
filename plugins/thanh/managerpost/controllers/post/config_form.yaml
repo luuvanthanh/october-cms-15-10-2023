@@ -1,0 +1,10 @@
+name: Post
+form: $/thanh/managerpost/models/post/fields.yaml
+modelClass: Thanh\Managerpost\Models\Post
+defaultRedirect: thanh/managerpost/post
+create:
+    redirect: 'thanh/managerpost/post/update/:id'
+    redirectClose: thanh/managerpost/post
+update:
+    redirect: thanh/managerpost/post
+    redirectClose: thanh/managerpost/post

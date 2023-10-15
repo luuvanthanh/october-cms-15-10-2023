@@ -1,0 +1,20 @@
+plugin:
+    name: 'thanh.managerpost::lang.plugin.name'
+    description: 'thanh.managerpost::lang.plugin.description'
+    author: Thanh
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Post
+        url: thanh/managerpost/category
+        icon: icon-life-ring
+        sideMenu:
+            side-menu-item:
+                label: Categories
+                url: thanh/managerpost/category
+                icon: icon-sitemap
+            side-menu-item2:
+                label: Post
+                url: thanh/managerpost/post
+                icon: icon-sitemap

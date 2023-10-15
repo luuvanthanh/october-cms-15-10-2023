@@ -1,0 +1,10 @@
+columns:
+    name:
+        label: Name
+        type: text
+    body:
+        label: Body
+        type: text
+    category_id:
+        label: 'Type category'
+        type: text

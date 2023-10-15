@@ -1,0 +1,33 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    body:
+        label: Body
+        span: auto
+        type: text
+    category:
+        label: Category
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    thumbnail:
+        label: Thumbnail
+        mode: image
+        imageWidth: '120'
+        imageHeight: '120'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
